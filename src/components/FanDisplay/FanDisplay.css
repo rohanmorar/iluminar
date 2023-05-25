@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.card-group {
+  transform: translateX(30%) translateY(50%);
+}
+
+.card-group,
+.card {
+  aspect-ratio: 3/2;
+  width: 30vmin;
+}
+
+.card {
+  width: 30vmin;
+  border-radius: 3vmin;
+  position: absolute;
+}
+.card:nth-child(1) {
+  background-color: rgb(94, 104, 119);
+  transform: translateX(22%) translateY(6%);
+}
+
+.card:nth-child(2) {
+  background-color: rgb(231, 49, 49);
+  transform: translateX(12%) translateY(0%);
+}
+/* 
+.card:nth-child(3) {
+  background-color: rgb(45, 124, 243);
+  transform: translateX(-5%) translateY(6%) scale(0.5, 0.6);
+}
+
+.card:nth-child(4) {
+  background-image: url("https://icongr.am/devicon/nodejs-original.svg?size=148&color=ffffff");
+  background-size: 100% 100%;
+  background-color: rgba(39, 194, 117);
+  transform: translateX(13%) translateY(3%) scale(0.5, 0.6);
+}
+
+.card:nth-child(5) {
+  border: solid blackwhit;
+  box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.274);
+  background-image: url("https://icongr.am/devicon/postgresql-plain.svg?size=148&color=ffffff");
+  background-size: 100% 100%;
+  background-color: rgb(255, 244, 185);
+  transform: translateY(3%) translateX(1%) scale(0.5, 0.6);
+}
+*/
+.card:nth-child(6) {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
+  background-image: url("https://icongr.am/devicon/react-original.svg?size=128&color=0000000");
+  background-size: 50% 50%;
+  background-color: rgb(237, 244, 248);
+  transform: translatex(5%) translateY(-30%);
+}
+
+/* Grey node  */
+
+.card-group:hover > .card:nth-child(1) {
+  transform: translate(-5%) translateX(60%) translateY(70%) scale(0.9, 0.8);
+  transition: 800ms 800ms cubic-bezier(0.32, 0.1, 0.48, 0.88);
+}
+
+/* red node  */
+.card-group:hover > .card:nth-child(2) {
+  transform: translate(-5%) translateX(80%) translateY(40%) scale(0.9, 0.8);
+  transition: 800ms 800ms cubic-bezier(0.32, 0.1, 0.48, 0.88);
+}
+/* Node.js node  */
+.card-group:hover > .card:nth-child(4) {
+  transform: translate(-5%) translateX(110%) scale(0.9, 0.8);
+  transition: 800ms 800ms cubic-bezier(0.32, 0.1, 0.48, 0.88);
+}
+
+/* postgre node  */
+.card-group:hover > .card:nth-child(5) {
+  transform: translate(-150%) translateX(110%) translateY(40%) scale(0.9, 0.8);
+  transition: 800ms 800ms cubic-bezier(0.32, 0.1, 0.48, 0.88);
+}
+/* blue node  */
+.card-group:hover > .card:nth-child(3) {
+  transform: translate(-5%) translateX(-80%) scale(0.9, 0.8);
+  transition: 800ms 800ms cubic-bezier(0.32, 0.1, 0.48, 0.88);
+}
+
+/* react node  */
+.card-group:hover > .card:nth-child(6) {
+  transform: translate(-150%) translateX(100%) translateY(-40%) scale(0.9, 0.8);
+  transition: 800ms 800ms cubic-bezier(0.32, 0.1, 0.48, 0.88);
+}

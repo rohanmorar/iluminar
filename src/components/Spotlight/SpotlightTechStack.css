@@ -1,0 +1,25 @@
+.devicon-grid {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 5 icons per row */
+  grid-gap: 20px; /* Adjust the gap between icons */
+}
+
+.devicon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.devicon-item {
+  /* Adjust the spacing between icon and name */
+  border-radius: 10px;
+  border: groove 0.3em rgb(202, 225, 233);
+}
+
+.devicon-item svg {
+  width: 60px;
+  height: 90px;
+}

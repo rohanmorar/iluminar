@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: start;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.tech-stack-icons {
+  max-width: 4em;
+}
